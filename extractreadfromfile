@@ -1,0 +1,7 @@
+def readFromFile(filename) :
+    servers = []
+    with open(filename,'r') as f:
+        for line in f:
+            servername = line
+            servers.append(servername)
+    return servers
